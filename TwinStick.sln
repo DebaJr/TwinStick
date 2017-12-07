@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwinStick", "Assembly-CSharp-firstpass.csproj", "{8F0F4467-D96A-B466-0F42-C41F3DE4093F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwinStick", "Assembly-CSharp.csproj", "{4FFD60E1-053F-9CEC-A245-4619A539B082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwinStick", "Assembly-CSharp-Editor-firstpass.csproj", "{884B750C-739F-831E-A75E-C9B1578D65D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F0F4467-D96A-B466-0F42-C41F3DE4093F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0F4467-D96A-B466-0F42-C41F3DE4093F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0F4467-D96A-B466-0F42-C41F3DE4093F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0F4467-D96A-B466-0F42-C41F3DE4093F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FFD60E1-053F-9CEC-A245-4619A539B082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FFD60E1-053F-9CEC-A245-4619A539B082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FFD60E1-053F-9CEC-A245-4619A539B082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FFD60E1-053F-9CEC-A245-4619A539B082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{884B750C-739F-831E-A75E-C9B1578D65D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884B750C-739F-831E-A75E-C9B1578D65D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884B750C-739F-831E-A75E-C9B1578D65D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884B750C-739F-831E-A75E-C9B1578D65D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
