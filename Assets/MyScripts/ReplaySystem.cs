@@ -26,15 +26,15 @@ public class ReplaySystem : MonoBehaviour {
 		} else {
 			PlayBack();
 		}
-		print ("Buffer full: " + bufferFull.ToString());
-		print ("Am I in playback? -->" + inPlayBack.ToString()); 
+//		print ("Buffer full: " + bufferFull.ToString());
+//		print ("Am I in playback? -->" + inPlayBack.ToString()); 
 	}
 
 	void Record ()	{
 		rb.isKinematic = false;
 		int frame = Time.frameCount % bufferFrames;
 		float time = Time.time;
-		print ("Wrinting keyframe: " + frame + ". Current frame count is: " + Time.frameCount);
+//		print ("Wrinting keyframe: " + frame + ". Current frame count is: " + Time.frameCount);
 		keyFrames [frame] = new MyKeyFrame (time, transform.position, transform.rotation);
 		if (!inPlayBack) {
 			lastRecKeyFrame = Time.frameCount;
@@ -58,7 +58,7 @@ public class ReplaySystem : MonoBehaviour {
 		} else {
 			frame = Time.frameCount % bufferFrames;
 		}
-		print ("Reading keyframe: " + frame + ". Current frame count is: " + Time.frameCount);
+//		print ("Reading keyframe: " + frame + ". Current frame count is: " + Time.frameCount);
 		transform.position = keyFrames[frame].position;
 		transform.rotation = keyFrames[frame].rotation;
 	}
